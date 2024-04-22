@@ -2,17 +2,10 @@
 
 import React, { useEffect } from "react";
 import HeroContent from "../sub/HeroContent";
-import axios from "axios"; 
+ 
 
 const Hero = () => {
-
-  useEffect(()=>{
-    (async function(){ 
-      const data= await axios.get('http://localhost:3000/app/api/testServer')
-      console.log(data)
-    })()
-  },[])
-
+  
   return (
     <div id="about-me" className="relative flex flex-col h-full w-full">
       <video
