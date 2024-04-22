@@ -33,6 +33,6 @@ export const GET=async(req:Request)=>{
 
     } catch (error) {
         console.log(error)
-        NextResponse.json({message:error},{status:500})
+        return NextResponse.json({message:error},{status:500})
     }
 }
