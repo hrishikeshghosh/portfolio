@@ -1,32 +1,108 @@
-export const myProjects=[
+export const myProjects = [
     {
-        title:"MadAlgos Coderground",
-        desc:"At MadAlgos, I've developed an advanced code editor tailored specifically for our users. The editor is packed with a plethora of features, starting from smooth question loading to providing insightful hints and executing code seamlessly. To enhance the compilation process, I've integrated Azure Functions for our language compilers, allowing for efficient code compilation through server calls. I believe in giving our users full control, which is why I offer customization options such as toggling between dark and light modes, adjusting font size and tab spacing, and selecting from various code editor themes. Additionally, I've implemented an auto code save feature to ensure that our users never lose their valuable work. In essence, my code editor at MadAlgos is a powerful tool designed to meet the diverse needs of developers, educators, and learners alike. It provides a smooth and intuitive coding experience, empowering users to focus on their tasks without any distractions.",
-        banner: "https://firebasestorage.googleapis.com/v0/b/hrishikesh-ghosh-portfolio.appspot.com/o/project%20Screenshots%2FMAD%20Algos%20-%20Google%20Chrome%204_21_2024%2012_21_56%20PM.png?alt=media&token=c74df5b8-d339-4971-9f43-6dd355166903",
-        url:"https://madalgos.in/ide/coderground"
+        title: "Soeji",
+        desc: `<br/><p className=" text-sm font-semibold text-white">
+        <span className=" text-lg font-semibold">Client: International client based in Germany</span><br/><br/>
+        <span className=" text-lg font-semibold">Technologies Used: Next.js, TypeScript, SQL, AWS, Docker, Tailwind CSS, GraphQL, Redis, CI/ CD</span><br/>
+        <br/> 
+        I developed a custom e - commerce platform for an international client specializing in eco - friendly jute products.This project was built from the ground up with a focus on modern web standards, scalability, and delivering a seamless shopping experience for users worldwide.
+        <br/>
+        <br/>
+        <span className=" text-lg font-semibold">Key Features:</span> <br/>
+            Dynamic Frontend: Built with Next.js and TypeScript, incorporating server - side rendering(SSR) for improved SEO and faster load times, and Tailwind CSS for a clean, responsive UI design.
+            Efficient Backend: Designed a scalable backend architecture with SQL for data management and Redis for optimized caching to enhance performance.
+            GraphQL API: Integrated GraphQL to enable efficient and flexible data fetching, reducing the complexity of client - server communication.
+            Cloud Infrastructure: Hosted on AWS using S3 for static assets, Lambda for serverless functions, and EC2 for application scalability.
+            Containerized Development: Employed Docker for containerized development and deployment, ensuring consistency across environments.
+            Automated CI / CD Pipeline: Set up a CI / CD pipeline using GitHub Actions, enabling faster, error-free deployments.
+            <br/>
+            <br/>
+             <span className=" text-lg font-semibold">Localization:</span><br/>
+            Implemented features to cater to an international audience, including multilingual support and region - specific optimizations.
+            <br/>
+            <br/>
+           <span className=" text-lg font-semibold">Impact:</span><br/>
+                This project exemplifies my expertise in full - stack development, from crafting intuitive frontends to building robust, scalable backends.It highlights my ability to integrate modern technologies like GraphQL and Redis while ensuring high performance and reliability for global audiences</p>`,
+        banner:
+            "https://firebasestorage.googleapis.com/v0/b/hrishikesh-ghosh-portfolio.appspot.com/o/project%20Screenshots%2Fsoeji-de-1024x1600desktop-996474.png?alt=media&token=30a6b6bf-433d-4f58-9a12-d58222710466",
+        url: "https://soeji.de/",
+        type: "E-Commerce",
     },
     {
-        title:"MadAlgos Clubs & Events",
-        desc:"I spearheaded the creation of MadAlgos Clubs & Events, contributing extensively to both the backend and frontend development. My role involved designing the architectural flow of user actions on the platform, ensuring seamless navigation and engagement. Additionally, I devised strategies for capturing user data, whether it be through club and event enrollments or lead generation. One of the notable features I implemented is a dynamic timer that adjusts according to the user's personalized timezone, providing real-time updates on enrollment deadlines. This personalized touch enhances the user experience and encourages timely participation. To enrich the learning experience, I seamlessly integrated the MadAlgos Code Editor and Zoom for hands-on coding sessions and knowledge sharing events. This integration facilitates interactive learning environments, allowing participants to engage directly with the material and instructors. Overall, MadAlgos Clubs & Events stands as a dynamic platform for fostering learning and collaboration, with a focus on user engagement and personalized experiences",
-        banner: "https://firebasestorage.googleapis.com/v0/b/hrishikesh-ghosh-portfolio.appspot.com/o/project%20Screenshots%2FMAD%20Algos%20-%20Google%20Chrome%204_21_2024%2012_28_30%20PM.png?alt=media&token=995001d1-43de-4a11-98c4-24a115170b3a",
-        url:"https://madalgos.in/clubs"
+        title: "Fitness & More",
+        desc: `
+        <p>
+        <br/>
+         <span className=" text-lg font-semibold">Client: Fitness & Wellness Industry</span>
+         <br/>
+         <br/>
+         <span className=" text-lg font-semibold">
+         Technologies Used: React.js, Next.js, TypeScript, Strapi CMS, MongoDB, AWS, Tailwind CSS, Node.js, Stripe, WebSocket.
+         </span>
+         <br/>
+         <br/>
+        I developed a comprehensive healthcare and fitness service platform designed to connect users with certified fitness trainers, provide personalized teaching guides, and offer a wide range of health and wellness services. The platform serves as a one-stop solution for individuals looking to achieve their fitness goals efficiently and conveniently.
+
+<span className=" text-lg font-semibold">Key Features:</span>
+Trainer Discovery: Integrated a dynamic search and filter system to help users find fitness trainers based on location, specialization, and availability.
+Teaching Guides: Delivered an extensive library of fitness routines, wellness programs, and health guides, all managed through a user-friendly CMS (Strapi).
+Booking System: Built a robust scheduling system for users to book appointments and classes with trainers, leveraging MongoDB for data storage and WebSocket for real-time updates.
+Payment Integration: Implemented secure online payments via Stripe, supporting one-time bookings and subscription-based services.
+Responsive Design: Designed a mobile-first, responsive interface using Tailwind CSS, ensuring a seamless user experience across devices.
+Scalable Backend: Used Node.js for API development and Next.js for server-side rendering to deliver fast, optimized performance.
+Content Management: Enabled administrators and trainers to update content effortlessly using Strapi CMS, allowing the platform to stay fresh and relevant.
+Cloud Hosting: Deployed on AWS, ensuring high availability, scalability, and data security.
+<br/>
+<br/>
+<span className=" text-lg font-semibold">Impact:</span><br/>
+This project showcases my ability to create service-oriented platforms with seamless integrations and user-focused design. It combines technical expertise with domain knowledge in healthcare and fitness, delivering a robust solution that empowers users to prioritize their health and well-being.
+        </p>
+       
+        `,
+        banner:
+            "https://firebasestorage.googleapis.com/v0/b/hrishikesh-ghosh-portfolio.appspot.com/o/project%20Screenshots%2Ffitnessandmore-co-in-1024x1600desktop-1731aa.png?alt=media&token=5fe3cbb4-c1ac-4963-b972-05e0dd7ba28e",
+        url: "https://fitnessandmore.co.in/",
+        type: "Fitness & Healthcare",
     },
     {
-        title:"MadAlgos Home Page Redesign",
-        desc:"I took the initiative to redesign the UI for our home page, focusing on enhancing user experience and incorporating modern UI trends. Using Figma, I meticulously crafted the new design, ensuring it was both visually appealing and user-friendly. To bring the design to life, I then coded the front end, paying close attention to detail to ensure robustness and interactivity. Leveraging trendy UI designs, I aimed to create a sleek and immersive experience for our users. One of the key decisions was to adopt a dark appearance, which not only adds a touch of elegance but also aligns with current design aesthetics. This choice enhances readability and makes elements pop, creating a visually striking homepage. Overall, the redesigned UI reflects our commitment to providing an engaging and seamless experience for our users, while staying at the forefront of design trends.",
-        banner:"https://firebasestorage.googleapis.com/v0/b/hrishikesh-ghosh-portfolio.appspot.com/o/project%20Screenshots%2FMAD%20Algos%20-%20Google%20Chrome%204_21_2024%201_05_28%20PM.png?alt=media&token=75fabc0c-3b0b-40e0-b42d-9c82068e35cb",
-        url:"https://madalgos.in/"
+        title: "Hotel Tonight",
+        desc: `
+        <p>
+        <br/>
+ <span className=" text-lg font-semibold">Client: Hospitality Industry (International)</span>
+<br/>
+<br/>
+ <span className=" text-lg font-semibold">Technologies Used: Next.js, TypeScript, Node.js, MongoDB, GraphQL, AWS, Tailwind CSS, Google Maps API, Algolia, Redis</span>
+<br/>
+<br/>
+I developed a cutting-edge hotel booking platform that focuses on last-minute bookings while offering a user-friendly experience for both urgent and regular reservations. The platform features a highly advanced algorithm I designed that dynamically searches and filters hotels with available rooms within a specified range from the user's location, ensuring fast and relevant results.
+
+ <span className=" text-lg font-semibold">Key Features:</span>
+Last-Minute Booking Algorithm: The core of the platform is an advanced algorithm that scans and identifies hotels with available rooms in real-time, adjusting for user preferences such as proximity, price range, and room type.
+Location-Based Search: Using Google Maps API, the platform automatically detects the user's location and suggests hotels within a customizable distance, making it perfect for spontaneous travelers.
+Comprehensive Filters: Users can fine-tune their hotel search with a variety of advanced filters, including:
+Price Range: Filter hotels based on budget or premium options.
+Room Type: Choose between suites, single rooms, or family accommodations.
+Amenities: Select hotels with specific amenities such as Wi-Fi, pools, gyms, or pet-friendly rooms.
+Rating & Reviews: Filter hotels based on user reviews and star ratings to ensure quality stays.
+Hotel Chains: Filter by popular hotel chains or boutique options.
+Cancellation Policy: Find hotels with flexible cancellation options for added peace of mind.
+Booking Flexibility: In addition to last-minute booking features, the website supports standard hotel booking processes with check-in/check-out dates, payment options, and customer service integration.
+Real-Time Availability: Integrated Redis caching and real-time database updates for seamless booking experience with minimal latency.
+User-Friendly Interface: Designed a clean, responsive UI using Tailwind CSS to ensure an easy-to-navigate experience across all devices.
+Payment Integration: Secure payment processing through Stripe to handle instant bookings and reservations.
+Cloud Hosting: Deployed the platform on AWS for scalability, security, and high availability, ensuring that the platform can handle spikes in traffic, especially during peak travel seasons.
+<br/>
+<br/>
+<span className=" text-lg font-semibold">Impact:</span>
+<br/>
+This project highlights my ability to develop a highly sophisticated search engine algorithm and create a seamless user experience for both spontaneous and traditional hotel bookings. By combining real-time data with advanced filtering options, the platform provides travelers with an intuitive and powerful tool to find the perfect accommodation, whether for last-minute trips or planned stays.
+        </p>
+       
+        `,
+        banner:
+            "https://firebasestorage.googleapis.com/v0/b/hrishikesh-ghosh-portfolio.appspot.com/o/project%20Screenshots%2Fhoteltonight-com-1024x1600desktop-a23061.png?alt=media&token=8ebf3daa-359f-46b8-9ab9-7490fcd0aab7",
+        url: "https://www.hoteltonight.com/",
+        type: "Travel & Hospitality",
     },
-    {
-        title:"RootNik Labs",
-        desc:"I had the opportunity to develop the front end for Rootnik Labs, a startup dedicated to teaching ethical hacking to students. For this project, I opted not to use any front end frameworks but instead relied on basic HTML and CSS to create a robust and highly interactive website. By eschewing frameworks, I aimed to demonstrate the power and versatility of fundamental web development technologies. Leveraging HTML and CSS, I crafted a user-friendly interface that effectively communicates Rootnik Labs' mission and offerings to its audience. Despite the simplicity of the tools used, I ensured that the website maintained a high level of interactivity. Through careful design and implementation, users can seamlessly navigate through the content, access resources, and engage with the platform's features. This project serves as a testament to the importance of foundational skills in web development and showcases the potential for creating compelling user experiences without relying on complex frameworks.",
-        banner:"https://firebasestorage.googleapis.com/v0/b/hrishikesh-ghosh-portfolio.appspot.com/o/project%20Screenshots%2FMAD%20Algos%20-%20Google%20Chrome%204_21_2024%201_09_44%20PM.png?alt=media&token=a62cd9fd-b1ae-426f-87a9-cf2037aa82b9",
-        url:"https://www.rootniklabs.com/"
-    },
-    {
-        title:"Ciem Mentorship Platform",
-        desc:"I had the privilege of developing a website showcasing my college's alumni band, specifically focusing on their contributions to the research and development sector. Leveraging the power of the React.js framework, I set out to create a website that would not only be robust but also leave users awestruck by its interactivity and seamless user experience. By harnessing the capabilities of React.js, I was able to build a dynamic and responsive website that captures the essence of the alumni band's achievements and innovations in the research and development field. Through engaging animations, intuitive navigation, and immersive visuals, users are drawn into a captivating journey through the band's story and its impact on the R&D sector. Additionally, I incorporated features that enable users to explore the band's projects, collaborations, and milestones in an interactive manner, fostering a deeper understanding and appreciation for their contributions. Overall, the website stands as a testament to the transformative potential of React.js in crafting compelling digital experiences that not only inform but also inspire and captivate users",
-        banner:"https://firebasestorage.googleapis.com/v0/b/hrishikesh-ghosh-portfolio.appspot.com/o/project%20Screenshots%2FMAD%20Algos%20-%20Google%20Chrome%204_21_2024%201_17_37%20PM.png?alt=media&token=11cfe1f1-4842-485f-8a92-c1cfaa568413",
-        url:"https://codechef-ciem-chapter.netlify.app/#/home"
-    },
-]
+];
